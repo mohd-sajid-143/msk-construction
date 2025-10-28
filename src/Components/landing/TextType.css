@@ -1,0 +1,34 @@
+.text-type {
+  display: inline-block;
+  white-space: pre-wrap;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+}
+
+.text-type__cursor {
+  margin-left: 0.25rem;
+  display: inline-block;
+  opacity: 1;
+}
+
+.text-type__cursor--hidden {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .text-type {
+    display: inline-block;
+    white-space: pre-wrap;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+  }
+}
+
+.content {
+  position: absolute;
+  display: inline-block;
+  top: 25%;
+  left: 12%;
+}

@@ -1,0 +1,12 @@
+/* src/styles/textStyles.css */
+.heading {
+  @apply font-['IBM_Plex_Mono'] font-semibold text-[32px] sm:text-[48px] md:text-[64px] lg:text-[72px];
+}
+
+.subheading {
+  @apply font-['IBM_Plex_Mono'] font-semibold text-[24px] sm:text-[32px] md:text-[40px];
+}
+
+.body-text {
+  @apply font-['IBM_Plex_Mono'] font-normal text-[16px] sm:text-[18px] md:text-[20px];
+}

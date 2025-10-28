@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+@import "tailwindcss";
+@theme {
+  --font-heading: "Tangerine", serif;
+  --font-body: "Inter", sans-serif;
+  --font-mono: "Fira Code", monospace;
+  --font-poppins: "poppins", sans-serif;
+  --color-primary: #6153cd; /* Blue 700 */
+  --color-secondary: #9333ea; /* Purple 600 */
+  --color-accent: #f97316; /* Orange 500 */
+  --color-background: #f9fafb;
+  --color-foreground: #111827;
+}
+.card {
+  font-family: var(--font-poppins);
+  font-size: 48px;
+  color: var(--color-primary);
+}
