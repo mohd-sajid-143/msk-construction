@@ -1,11 +1,9 @@
 import React from "react";
-import Logo from "../../assets/logo-1.png";
+import Logo from "../../../assets/icons/logo-1.png";
+import Login from "../../../features/auth/login";
+import LoginPage from "../../../pages/LoginPage";
 
-export default function ResponsiveMenu({
-  showMenu,
-  setShowMenu,
-  handleNavigation,
-}) {
+function ResponsiveMenu({ showMenu, setShowMenu, handleNavigation }) {
   return (
     <div
       className={`${
@@ -37,7 +35,7 @@ export default function ResponsiveMenu({
 
         <button
           onClick={() => {
-            alert("Login Clicked");
+            <LoginPage />;
             setShowMenu(false);
           }}
           className="bg-[#d4a373] text-black mt-6 px-4 py-1 rounded-full text-lg font-semibold hover:bg-[#c69666]"
@@ -48,3 +46,4 @@ export default function ResponsiveMenu({
     </div>
   );
 }
+export default ResponsiveMenu;

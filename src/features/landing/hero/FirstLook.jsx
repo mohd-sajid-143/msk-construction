@@ -1,7 +1,7 @@
-import bg1 from "../../assets/slide-1.jpg";
-import line from "../../assets/line.png";
+import bg1 from "../../../assets/images/slide-1.jpg";
+import line from "../../../assets/images/line.png";
 
-export const FirstLook = () => {
+function FirstLook() {
   return (
     <>
       <main id="home">
@@ -62,4 +62,5 @@ export const FirstLook = () => {
       </main>
     </>
   );
-};
+}
+export default FirstLook;

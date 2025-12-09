@@ -1,23 +1,25 @@
 import { useState } from "react";
-
+import T1 from "../../../assets/images/vipul.jpg";
+import T2 from "../../../assets/images/dr-sonal-parihar.png";
+import T3 from "../../../assets/images/dr-ajay-singh-parihar.jpg";
 const testimonials = [
   {
-    name: "Jeffrey Neddery",
+    name: "Ar. Vipul Bharti",
     role: "Regular Client",
-    img: "https://randomuser.me/api/portraits/men/32.jpg",
-    text: "We selected Alves Architects because of their architects’ rigorous design background and education. They exceeded our expectations and emerged as leaders of our project.",
+    img: T1,
+    text: "We have worked with MSK Construction on multiple commercial projects, and every time they’ve exceeded expectations. Their 40+ years of experience clearly shows in the way they plan and execute projects. The workmanship and finishing are top-notch!",
   },
   {
-    name: "Sam Smith",
+    name: "Dr. Sonal Parihar",
     role: "Regular Client",
-    img: "https://randomuser.me/api/portraits/men/45.jpg",
-    text: "When we needed design and architecture specialists, your team was there for us. You took all our ideas and demands into consideration and made a great project.",
+    img: T2,
+    text: "From start to finish, MSK Construction made the entire building process smooth and stress-free. The team handled everything professionally and completed our farmhouse within the promised timeline. We’re extremely happy with the results!",
   },
   {
-    name: "Ann Peters",
+    name: "Dr. Ajay singh Parihar",
     role: "Regular Client",
-    img: "https://randomuser.me/api/portraits/women/65.jpg",
-    text: "I have worked with many architecture companies offering design & construction services, and out of all, you were the one who really stood out from the rest.",
+    img: T3,
+    text: "MSK Construction delivered outstanding results for our new home project. Their attention to detail and commitment to quality were truly impressive.Highly recommended for anyone looking for reliable construction services in Jodhpur!",
   },
 ];
 

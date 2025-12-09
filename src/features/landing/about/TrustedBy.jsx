@@ -1,11 +1,11 @@
 import React from "react";
 import "./trustedby.css";
-import T1 from "../assets/trust1.png";
-import T2 from "../assets/trust2.png";
-import T3 from "../assets/trust3.png";
-import T4 from "../assets/dna.jpg";
-import T5 from "../assets/trust5.png";
-import T6 from "../assets/trust6.png";
+import T1 from "../../../assets/images/trust1.png";
+import T2 from "../../../assets/images/trust2.png";
+import T3 from "../../../assets/images/trust3.png";
+import T4 from "../../../assets/images/dna.jpg";
+import T5 from "../../../assets/images/trust5.png";
+import T6 from "../../../assets/images/trust6.png";
 
 export default function TrustedBy() {
   const firms = [

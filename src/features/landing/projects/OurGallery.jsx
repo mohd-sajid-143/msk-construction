@@ -1,22 +1,22 @@
 import { useEffect, useMemo, useRef, useCallback } from "react";
 import { useGesture } from "@use-gesture/react";
-import Og1 from "../assets/Og1.jpeg";
-import Og2 from "../assets/Og2.jpeg";
-import Og3 from "../assets/Og3.jpeg";
+import Og1 from "../../../assets/images/Og1.jpeg";
+import Og2 from "../../../assets/images/Og2.jpeg";
+import Og3 from "../../../assets/images/Og3.jpeg";
 // import Og4 from "../assets/Og4.jpeg";
-import Og5 from "../assets/Og5.jpeg";
-import Og6 from "../assets/Og6.jpeg";
-import Og7 from "../assets/Og7.jpeg";
-import Og8 from "../assets/Og8.jpeg";
-import Og9 from "../assets/Og9.jpeg";
-import Og10 from "../assets/Og10.jpeg";
-import Og11 from "../assets/Og11.jpeg";
-import Og12 from "../assets/Og12.jpeg";
-import Og13 from "../assets/Og13.jpeg";
-import Og14 from "../assets/Og14.jpeg";
-import Og16 from "../assets/Og16.jpeg";
-import Og17 from "../assets/Og17.jpeg";
-import Og18 from "../assets/Og18.jpeg";
+import Og5 from "../../../assets/images/Og5.jpeg";
+import Og6 from "../../../assets/images/Og6.jpeg";
+import Og7 from "../../../assets/images/Og7.jpeg";
+import Og8 from "../../../assets/images/Og8.jpeg";
+import Og9 from "../../../assets/images/Og9.jpeg";
+import Og10 from "../../../assets/images/Og10.jpeg";
+import Og11 from "../../../assets/images/Og11.jpeg";
+import Og12 from "../../../assets/images/Og12.jpeg";
+import Og13 from "../../../assets/images/Og13.jpeg";
+import Og14 from "../../../assets/images/Og14.jpeg";
+import Og16 from "../../../assets/images/Og16.jpeg";
+import Og17 from "../../../assets/images/Og17.jpeg";
+import Og18 from "../../../assets/images/Og18.jpeg";
 
 const DEFAULT_IMAGES = [
   {

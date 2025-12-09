@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import p1 from "../assets/chaturbhuj5.jpg";
-import p2 from "../assets/sonaamedihub6.jpg";
-import p3 from "../assets/shah-opticals-5th-road.jpg";
-import p4 from "../assets/rajbhagh6.jpg";
-import Cs5 from "../assets/image-17.jpg";
-import Cs6 from "../assets/image-13.jpg";
+import p1 from "../../../assets/images/Chaturbhuj5.jpg";
+import p2 from "../../../assets/images/sonaamedihub6.jpg";
+import p3 from "../../../assets/images/shah-opticals-5th-road.jpg";
+import p4 from "../../../assets/images/rajbhagh6.jpg";
+import Cs5 from "../../../assets/images/image-17.jpg";
+import Cs6 from "../../../assets/images/image-13.jpg";
 
 const cardsData = [
   {

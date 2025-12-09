@@ -1,6 +1,6 @@
-import Logo from "../assets/logo-1.png";
+import Logo from "../../assets/icons/logo-1.png";
 import { Facebook, Twitter, Instagram } from "lucide-react";
-export default function Footer() {
+function Footer() {
   return (
     <footer className="bg-[#c44536]  text-gray-300 pt-20 pb-6 px-6 md:px-12">
       {/* --- Top Info Section --- */}
@@ -124,3 +124,4 @@ export default function Footer() {
     </footer>
   );
 }
+export default Footer;

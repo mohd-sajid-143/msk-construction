@@ -1,7 +1,9 @@
 import { useState, useRef, useEffect } from "react";
-import Logo from "../../assets/logo-1.png";
+import Logo from "../../../assets/icons/logo-1.png";
 import { HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
-import ResponsiveMenu from "./ResponsiveMenu";
+import ResponsiveMenu from "../landingNavbar/ResponsiveMenu";
+import Login from "../../../features/auth/login";
+import LoginPage from "../../../pages/LoginPage";
 
 export default function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
@@ -62,7 +64,7 @@ export default function Navbar() {
           ))}
 
           <button
-            onClick={() => alert("Login Clicked")}
+            onClick={() => <LoginPage />}
             className="bg-[#d4a373] text-black px-4 py-1 rounded-full text-lg font-semibold hover:bg-[#c69666]"
           >
             Login →
